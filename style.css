@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.box {
+    background-color: antiquewhite;
+    height: 600px;
+    width: 500px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    margin-left: 600px;
+}
+
+h1 {
+    color: blue;
+}
+
+.api button {
+    
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid black;
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px;
+}
+
+.api button h3 {
+    margin: 10px;
+}
+
+.api :hover{
+    background-color: brown;
+}
+
+
+.separate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.separate h1 {
+    font-size: larger;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.separate .line {
+    flex-grow: 1;
+    height: 1px;
+    width: 150px;
+    background-color: blue;
+}
+
+.email {
+    border: none;
+    outline: none;
+    border: none;
+    width: 390px;
+    height: 45px;
+    border: 2px solid black;
+    font-size: large;
+    font-weight: bold;
+    opacity: 1;
+    color: #666;
+    padding-left: 5px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+/* Basic styles for the form */
+form {
+    margin: 2px;
+    font-family: Arial, sans-serif;
+}
+
+.password-container {
+    position: relative;
+    width: 400px; /* Adjust to match the width of the input field */
+}
+
+.password-container input[type="password"],
+.password-container input[type="text"] {
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    font-size: large;
+    font-weight: bold;
+    color: #666;
+    padding: 5px 2px 5px 5px; /* Adjust padding to make room for the icon */
+    box-sizing: border-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+/* Placeholder styles */
+.password-container input::placeholder {
+    color: #666; /* Darker shade for better visibility */
+    font-weight: 500; /* Semi-bold font weight for clarity */
+}
+
+/* Toggle password visibility icon */
+.password-container .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    height: 20px;
+    width: 60px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: large;
+    user-select: none; /* Prevent text selection */
+    text-align: center;
+}
+
+
+
+ label {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: left;
+    border: none;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+#remember {
+    
+    margin: 5px;
+}
+
+#create input{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: large;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: blue;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
